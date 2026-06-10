@@ -13,7 +13,7 @@ private:
 public:
     void agregarGrupo(const string& nombre);
     void registrarPartidoEnGrupo(const string& grupo, const string& local, int gLocal,
-                                  const string& visitante, int gVisitante);
+                                 const string& visitante, int gVisitante);
     void mostrarTodos() const;
     GrupoMundial& operator[](const string& nombre);
 };
